@@ -1,1 +1,1 @@
-web: SUMMON_PROVIDER=/app/.heroku/summon/summon-conjur summon node src/server.js
+web: SUMMON_PROVIDER=/app/summon-conjur ./summon node src/server.js
